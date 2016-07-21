@@ -13,6 +13,12 @@ object myObject {
       case blaa if blaa > 1 => "nop"
     }
 
+      //BUM!!!
+    List(1, 2, 3).map {
+      case bla if bla > 2 => "yey"
+      case blaa if blaa > 1 => "nop"
+    }
+
     //BUM!!!
     List(1, 2, 3).map {
       case bla if bla > 2 => "yey"
